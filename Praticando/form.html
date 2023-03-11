@@ -1,0 +1,35 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Formulario</title>
+    </head>
+
+    <body>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label>Nome: <input type="text" name="nome" /> </label><br/>
+            <label>Idade: <input type="text" name="idade" /> </label> <br/>
+        </fieldset>
+
+        <fieldset>
+                <legend>Dados profissionais</legend>
+                <label>Escolaridade:
+                <select name="escolaridade">
+                    <option value="em"> Ensino Médio</option>
+                    <option value="nt"> Nível técnico</option>
+                    <option value="ns"> Nível Superior</option>
+                </select>
+                </label>
+
+                <br/>
+
+                <label>Área de atuação
+                    <input type="radio" name="cargo" value="1" checked> Gerência
+                    <input type="radio" name="cargo" value="2"> Financeiro
+                    <input type="radio" name="cargo" value="3"> Recepção                  
+                </label>
+        </fieldset>
+        <input type="submit" name="cadastra" value="Cadastrar"/>
+    </body>
+</html>

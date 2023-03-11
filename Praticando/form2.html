@@ -1,0 +1,61 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario 2</title>
+    </head>
+
+    <body>
+        <form method='POST' action='recebe-dados.php'>
+            <label for="nome">Nome</label>
+            <input type="text" id='nome' name='nome' required>
+            <br/>
+            <label for="fone">Celular com DDD</label>
+            <input type="tel" id="fone" name="fone" required pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" placeholder="11 9999-9999">
+            
+            <label for="hora-desejada">Hora desejada</label>
+            <input type="time" id="hora-desejada" name="hora-desejada" requirede>
+            <br>
+            <label for="site">Seu site</label>
+            <input type="url" id="site" name="site" required>
+            <label for="senha">Senha</label>
+            <input type="password" id='senha' name='senha' required>
+            <br>
+
+            <label for="dtnasc">Data Nasc</label>
+            <input type='date' id='dtnasc' name='dtnasc'>
+            <label for="cor">Cor favorita</label>
+            <input type='color' id='cor' name='cor'>
+            <br>
+
+            <label for="filhos"> Qtde Filhos</label>
+            <input type='number' id='filhos' name='filhos'>
+            <label for="pese">Peso</label>
+            0<input type="range" id="peso" name="pese" min="0" max="200">200
+            <br>
+
+            <p>SEXO</p>
+            <input type="radio" id="sexo-m" name="sexo" value="Masculino">
+            <label for="sexe-m">Masculino</label> <br>
+            <input type="radio" id="sexo-f" name="sexo" value="Feminino">
+            <label for="sexo-f">Feminino</label>    
+            <br>
+
+            <label for="estado">Estado</label>
+            <select id="estado" name="estado">
+                    <option value="SP">SP</option>
+                    <option value="RJ">RJ</option>
+                    <option value="PB">PB</option>
+            </select>
+
+            <br>
+            <label for="msg">Mensagem</label><br>
+            <textarea id="msg" name="msg" rows="4" cols="50"></textarea>
+            <br>
+
+            <input type="reset" value="Reset">
+            <input type="submit" value="Enviar">
+            
+        </form>
+    </body>
+</html>

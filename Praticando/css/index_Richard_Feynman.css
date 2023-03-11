@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    background-color: #9b9999;
+}
+
+.cabecalho {
+    width: 700px;
+    margin: auto;
+   
+}
+
+h1 {
+    margin-left: 30%;
+    width: 300px; 
+}
+
+h2 {
+    margin-left: 27%;
+    width: 400px;
+}
+
+.linha_cabecalho_corpo {
+    height: 1px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.corpo {
+    width: 700px;
+    margin: auto;
+    
+}
+
+.corpo img {
+    margin-top: 20px;
+    margin-left: 30%;
+    width: 300px;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.texto {
+    width: 700px;
+    margin: auto;
+}
+
+.texto p {
+    text-align: center;
+}
+
+footer {
+    width: 700px;
+    margin: auto;
+}
+
+.titulo_footer {
+    margin: auto;
+    font-size: 12px;
+}
+
+.feitosMemoraveis{
+    width: 700px;
+    height: auto;
+    
+}
+
+.ano {
+    margin-left: 35%;
+    text-align: center;
+    font-weight: bold;
+    float: left;
+}
+
+.feito {
+    float:left;
+}

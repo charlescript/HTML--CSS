@@ -1,0 +1,213 @@
+body {
+    margin:0;
+    padding: 0;
+}
+
+.cabecalho{
+    height: 70px;
+    width: 100%;
+    background-color: #000000;    
+    box-shadow: 1px 5px 5px rgba(50, 50, 50, 0.67);
+}
+
+.cabecalho_left {
+    float:left;
+    width: 50%;
+}
+
+.cabecalho_left img {
+    height: 50px;
+    margin: 10px;
+    line-height: 70px;
+}
+
+.cabecalho_right {
+    width: 49%;
+    height: 70px;
+    float:left;
+    margin-top: 11px;
+    display: flex;
+}
+
+.coracao {
+    width: 40px;
+    height: 40px;
+    margin-left: 10%;
+    float:left;
+    border: 1px solid #FFFFFF;
+    background-color: #434242;
+    border-radius: 3px;
+}
+
+.coracao img {
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    flex: 1;
+}
+
+.fork {
+    width: 70px;
+    height: 40px;
+    margin-left: 3%;
+    color: white;
+    border: 1px solid #FFFFFF;
+    background-color: #000000;
+    border-radius: 3px;
+}
+
+.fork p{
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+.change {
+    width: 140px;
+    height: 40px;
+    margin-left: 3%;
+    color: white;
+    border: 1px solid #FFFFFF;
+    background-color: #585656;
+    border-radius: 3px;
+}
+
+.change p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.SignUp {
+    width: 80px;
+    height: 40px;
+    margin-left: 3%;
+    color: rgb(8, 8, 8);
+    border: 1px solid #FFFFFF;
+    background-color: #30cf78;
+    border-radius: 3px;
+}
+
+.SignUp p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.LogIn {
+    width: 80px;
+    height: 40px;
+    margin-left: 3%;
+    color: #ffffff;
+    border: 1px solid #FFFFFF;
+    background-color: #585656;
+    border-radius: 3px;
+}
+
+.LogIn p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.corpo {
+    width: 100%;
+    background-color:#e2dd42;
+    padding-bottom: 10%;
+}
+
+.layout-centro {
+    width: 70%;
+    margin:auto;
+    
+}
+
+.layout-centro h1,h3 {
+    text-align: center;
+}
+
+.layout-centro h1{
+    font-size: 50px;
+}
+
+.imgCentro {
+    text-align: center;
+}
+
+.imgCentro img{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border: 1px dotted black; 
+    border-radius: 15px;
+}
+
+
+.textodomeio{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.history{
+    margin-top: 90px;
+    width: 98%;
+    height: 600px;
+    background-color: rgb(92, 92, 92);
+    border-radius: 20px;
+    border: 5px dashed black;
+    color: white;
+    font-size: 19px;
+}
+
+.listra{
+    width: 95%;
+    height: 5px;
+    color:black;
+    float: left;
+    
+}
+
+.hist_left {
+    width: 33%;
+    height: 600px;
+    float:left;
+    text-align: left;
+}
+
+.hist_center {
+    width: 33%;
+    height: 600px;
+    float:left;
+}
+
+.hist_center img{
+    
+    margin-top: 20%;
+    width: 100%;
+}
+
+.hist_right {
+    width: 33%;
+    height: 600px;
+    float:right;
+    text-align: left;
+}
+
+
+.rodape{
+
+    margin-top: 5%;
+    border: 3px dashed black;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    border-radius: 120px;
+}
+
+
