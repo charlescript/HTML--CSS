@@ -1,0 +1,36 @@
+<!-- FORMS
+
+    - CAPTURAR DADOS DE ENTRADA
+    - INPUT -> ENTRADA
+
+    ACTION -> DEFINE PARA QUAL URL SERÁ ENVIADOOS DADOS,
+    VAZIO -> ENVIA PARA A MESMA URL
+
+    METHOD
+        - GET
+        - POST
+-->
+
+
+<form action="" method="GET" enctype="multipart/form-data" >
+    <h1>Digite seu endereço</h1>
+    <label>Rua:
+        <input type="text" name="rua" autocomplete="street-address" />
+    </label>   
+
+
+    
+    <label>Número:
+        <input type="number" name="rua" autocomplete="address-line1"/>
+    </label>   
+
+    <label>Email:
+        <input type="email" name="email" autocomplete="email"/>
+    </label>  
+
+    <label>Foto:
+        <input type="file" name="arquivo" />
+    </label>  
+
+    <button type="submit">Enviar dados</button>
+</form>

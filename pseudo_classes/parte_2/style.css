@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* li:first-child {
+    color: red;
+}
+
+
+span:first-of-type {
+    color: red;
+}
+
+p:first-of-type {
+    color: blue;
+} */
+
+
+/* li:last-child {
+    color: red;
+} */
+
+/* .container :not(p){
+    color: red;
+} */
+
+/* li:nth-child(7){
+    color: red;
+} */
+
+
+li:nth-last-child(7){ 
+    color: red;
+}

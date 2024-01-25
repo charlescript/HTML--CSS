@@ -1,0 +1,52 @@
+/*
+ :active -> quando o elemento está ativo, ou seja, está sendo pressionado
+ :visited -> seleciona o link que foi visitado
+ :hover -> quando o mouse passe em cima do elemento
+ :checked -> usado em radio / checkbox / select
+ :disabled -> elemento desabilitado / button / input
+ :enabled -> elemento está habilitado
+ :focus -> é aplicado quando um elemento recebe foco, o que pode ocorrer quando o usuário seleciona o elemento
+ :read-only -> seleciona input ou text-area que são apenas leitura
+ :empty -> elemento que não tem filho
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* a:active { 
+    color: red;
+} */
+
+/* a:visited { 
+    color: blue;
+} */
+
+/* a:hover { 
+    color: blue;
+    font-size: 20px;
+}
+
+input:checked {
+    width: 1000px;
+    height: 1000px;
+} */
+
+
+/* input:focus {
+    border: 1px solid blue;
+    outline:none;
+} */
+
+.container {
+    height: 100px;
+    width: 100px;
+    background: red;
+}
+
+.container:empty {
+    background: blue;
+}
